@@ -1,0 +1,28 @@
+{
+  "name": "postcss-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "01": "gulp --gulpfile gulpfile-01.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hcxowe/postcss-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hcxowe/postcss-tutorial/issues"
+  },
+  "homepage": "https://github.com/hcxowe/postcss-tutorial#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "cssnano": "^3.2.0",
+    "gulp": "^3.9.0",
+    "gulp-postcss": "^6.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "^1.5.2"
+  }
+}
