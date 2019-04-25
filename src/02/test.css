@@ -1,0 +1,44 @@
+:root {
+    /* 变量定义 */
+    --dark-grayish-green: #868a7b;
+    --white: #fff;
+    --fullsize: 100%;
+}
+
+/* 混合宏定义 */
+@define-mixin fontstyle $size, $color {
+    font-size: $(size)px;
+    font-size: calc($size/16)rem;
+    color: $color;
+}
+
+html,
+body {
+    width: var(--fullsize);
+    height: var(--fullsize);
+    background: var(--white)
+}
+
+.wrap {
+    height: var(--fullsize);
+    background: var(--white)
+}
+
+h3 {
+    @mixin fontstyle 32, #ccc;
+    text-transform: uppercase;
+}
+
+.social-icon {
+    background: 50% no-repeat;
+    background-size: 100%;
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+
+@each $media in twitter, linkedin, youtube {
+    .social-icon .$(media) {
+        background: url('../img/$(media).png');
+    }
+}

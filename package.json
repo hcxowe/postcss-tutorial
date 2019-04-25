@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "01": "gulp --gulpfile gulpfile-01.js"
+    "01": "gulp --gulpfile gulpfile-01.js",
+    "02": "gulp --gulpfile gulpfile-02.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,10 @@
     "gulp": "^3.9.0",
     "gulp-postcss": "^6.0.0",
     "gulp-rename": "^1.4.0",
-    "gulp-sourcemaps": "^1.5.2"
+    "gulp-sourcemaps": "^1.5.2",
+    "postcss-calc": "^7.0.1",
+    "postcss-css-variables": "^0.12.0",
+    "postcss-each": "^0.10.0",
+    "postcss-mixins": "^6.2.1"
   }
 }
