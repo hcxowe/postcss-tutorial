@@ -1,0 +1,40 @@
+:root {
+    --color: #edc;
+}
+
+@define-mixin pos $top, $right, $bottom, $left {
+    top: $(top)px;
+    right: $(right)px;
+    bottom: $(bottom)px;
+    left: $(left)px;
+}
+
+.wrap {
+    position: absolute;
+    @mixin pos 0, 0, 0, 0;
+
+    @nest & .container {
+        background: var(--color);
+    }
+
+    @nest &:hover {
+        background: var(--color)
+    }
+}
+
+/* BEM */
+.btn {
+    
+}
+
+.btn-primiry {
+
+}
+
+.btn-active {
+
+}
+
+.btn-primiry-active {
+
+}

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "01": "gulp --gulpfile gulpfile-01.js",
-    "02": "gulp --gulpfile gulpfile-02.js"
+    "02": "gulp --gulpfile gulpfile-02.js",
+    "03": "gulp --gulpfile gulpfile-03.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "postcss-calc": "^7.0.1",
     "postcss-css-variables": "^0.12.0",
     "postcss-each": "^0.10.0",
-    "postcss-mixins": "^6.2.1"
+    "postcss-mixins": "^6.2.1",
+    "postcss-nesting": "^2.3.1"
   }
 }
