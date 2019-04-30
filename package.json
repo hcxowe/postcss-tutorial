@@ -8,7 +8,8 @@
     "02": "gulp --gulpfile gulpfile-02.js",
     "03": "gulp --gulpfile gulpfile-03.js",
     "04": "gulp --gulpfile gulpfile-04.js",
-    "05": "gulp --gulpfile gulpfile-05.js"
+    "05": "gulp --gulpfile gulpfile-05.js",
+    "06": "gulp --gulpfile gulpfile-06.js"
   },
   "repository": {
     "type": "git",
